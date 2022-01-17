@@ -2,7 +2,7 @@
 
 namespace MySite.Data.Migrations
 {
-    public partial class addentityperson : Migration
+    public partial class init : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
