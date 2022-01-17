@@ -1,0 +1,56 @@
+﻿@model MySite.Entity.Models.PersonModel.PersonCreateOrEditModel
+<div asp-validation-summary="All" class="text-danger col-lg-12"></div>
+
+<smart-row>
+    <smart-editor asp-for="Name" asp-col-size="6"  ></smart-editor>
+    <smart-editor asp-for="FName" asp-col-size="6" ></smart-editor>
+</smart-row>
+<smart-row>
+    <smart-editor asp-for="NationalCode" asp-col-size="6" ></smart-editor>
+    <smart-editor asp-for="PhoneNumber" asp-col-size="6" ></smart-editor>
+</smart-row>
+
+@*<div class="form-row align-items-center">
+
+    <div class="col-md-6">
+        <label class="sr-only" asp-for="Name">Name</label>
+        <div class="input-group mb-2">
+            <div class="input-group-prepend">
+                <div class="input-group-text">$</div>
+            </div>
+            <input type="text" class="form-control" asp-for="Name" placeholder="Name">
+        </div>
+    </div>
+    <div class="col-6">
+        <label class="sr-only" asp-for="FName">FName</label>
+        <div class="input-group mb-2">
+            <div class="input-group-prepend">
+                <div class="input-group-text">$</div>
+            </div>
+            <input type="text" class="form-control" asp-for="FName" placeholder="FName">
+        </div>
+    </div>
+    <div class="col-6">
+        <label class="sr-only" asp-for="NationalCode">NationalCode</label>
+        <div class="input-group mb-2">
+            <div class="input-group-prepend">
+                <div class="input-group-text">%</div>
+            </div>
+            <input type="text" class="form-control" asp-for="NationalCode" placeholder="NationalCode">
+        </div>
+    </div>
+    <div class="col-6">
+        <label class="sr-only" asp-for="PhoneNumber">PhoneNumber</label>
+        <div class="input-group mb-2">
+            <div class="input-group-prepend">
+                <div class="input-group-text">N</div>
+            </div>
+            <input type="text" class="form-control" asp-for="PhoneNumber" placeholder="PhoneNumber">
+        </div>
+    </div>
+   
+</div>*@
+
+
+
+

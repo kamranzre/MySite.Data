@@ -1,0 +1,1659 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="0DeletedSuccessfully" xml:space="preserve">
+    <value>{0} با موفقیت حذف شد</value>
+  </data>
+  <data name="AccessDenied" xml:space="preserve">
+    <value>دسترسی غیر مجاز</value>
+  </data>
+  <data name="AccessPermission" xml:space="preserve">
+    <value>مجوز دسترسی</value>
+  </data>
+  <data name="Address" xml:space="preserve">
+    <value>آدرس</value>
+  </data>
+  <data name="AreYouSureDelete" xml:space="preserve">
+    <value>آیا از حذف اطمینان دارید؟</value>
+  </data>
+  <data name="AtleastOneItemMustSelectToDelete" xml:space="preserve">
+    <value>انتخاب حداقل یک رکورد جهت حذف الزامی است</value>
+  </data>
+  <data name="Barcode" xml:space="preserve">
+    <value>بارکد</value>
+  </data>
+  <data name="BaseInfoList" xml:space="preserve">
+    <value>لیست اطلاعات پایه</value>
+  </data>
+  <data name="BaseInfos" xml:space="preserve">
+    <value>اطلاعات پایه</value>
+  </data>
+  <data name="BaseInfoSubmit" xml:space="preserve">
+    <value>ثبت اطلاعات پایه</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>انصراف</value>
+  </data>
+  <data name="CargoType" xml:space="preserve">
+    <value>گروه کالا</value>
+  </data>
+  <data name="CargoTypeFeature" xml:space="preserve">
+    <value>مشخصه گروه کالا</value>
+  </data>
+  <data name="CargoTypeFeatureDelete" xml:space="preserve">
+    <value>حذف مشخصه گروه کالا</value>
+  </data>
+  <data name="CargoTypeFeatureEdit" xml:space="preserve">
+    <value>ویرایش مشخصه گروه کالا</value>
+  </data>
+  <data name="CargoTypeFeatureList" xml:space="preserve">
+    <value>لیست مشخصه های گروه کالا</value>
+  </data>
+  <data name="CargoTypeFeatureManagement" xml:space="preserve">
+    <value>مدیریت مشخصه گروه کالا</value>
+  </data>
+  <data name="CargoTypeFeatureSubmit" xml:space="preserve">
+    <value>ثبت مشخصه گروه کالا</value>
+  </data>
+  <data name="CargoTypeList" xml:space="preserve">
+    <value>لیست گروه کالا</value>
+  </data>
+  <data name="ChangePassword" xml:space="preserve">
+    <value>تغییر رمز عبور</value>
+  </data>
+  <data name="Cities" xml:space="preserve">
+    <value>شهر ها</value>
+  </data>
+  <data name="CitiesList" xml:space="preserve">
+    <value>لیست شهر ها</value>
+  </data>
+  <data name="CitiesSeaPort" xml:space="preserve">
+    <value>شهرها و بنادر</value>
+  </data>
+  <data name="City" xml:space="preserve">
+    <value>شهر</value>
+  </data>
+  <data name="CityDelete" xml:space="preserve">
+    <value>حذف شهر</value>
+  </data>
+  <data name="CityEdit" xml:space="preserve">
+    <value>ویرایش شهر</value>
+  </data>
+  <data name="CitySeaPort" xml:space="preserve">
+    <value>شهر ها و بنادر</value>
+  </data>
+  <data name="CitySubmit" xml:space="preserve">
+    <value>ثبت شهر</value>
+  </data>
+  <data name="Code" xml:space="preserve">
+    <value>کد</value>
+  </data>
+  <data name="ConfirmNewPassword" xml:space="preserve">
+    <value>تکرار رمز عبور جدید</value>
+  </data>
+  <data name="ContainerLine" xml:space="preserve">
+    <value>خط کانتینر</value>
+  </data>
+  <data name="ContainerSize" xml:space="preserve">
+    <value>اندازه ی کانتینر</value>
+  </data>
+  <data name="ContainerType" xml:space="preserve">
+    <value>نوع کانتینر</value>
+  </data>
+  <data name="Countries" xml:space="preserve">
+    <value>کشور ها</value>
+  </data>
+  <data name="Country" xml:space="preserve">
+    <value>کشور</value>
+  </data>
+  <data name="Create0" xml:space="preserve">
+    <value>ثبت {0}</value>
+  </data>
+  <data name="CurrentPassword" xml:space="preserve">
+    <value>رمز عبور فعلی</value>
+  </data>
+  <data name="Dashboard" xml:space="preserve">
+    <value>داشبورد</value>
+  </data>
+  <data name="Defaut" xml:space="preserve">
+    <value>پیشفرض</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>حذف</value>
+  </data>
+  <data name="DescriptionEn" xml:space="preserve">
+    <value>توضیحات انگلیسی</value>
+  </data>
+  <data name="DescriptionFa" xml:space="preserve">
+    <value>توضیحات فارسی</value>
+  </data>
+  <data name="DescriptoinEn" xml:space="preserve">
+    <value>توضیحات انگلیسی</value>
+  </data>
+  <data name="DescriptoinFa" xml:space="preserve">
+    <value>توضیحات فارسی</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>ویرایش</value>
+  </data>
+  <data name="Edit0" xml:space="preserve">
+    <value>ویرایش {0}</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>پست الکترونیکی</value>
+  </data>
+  <data name="EnterDate" xml:space="preserve">
+    <value>تاریخ ثبت</value>
+  </data>
+  <data name="EnterTime" xml:space="preserve">
+    <value>زمان ثبت</value>
+  </data>
+  <data name="Entry" xml:space="preserve">
+    <value>ورود</value>
+  </data>
+  <data name="ErrorInOperation0" xml:space="preserve">
+    <value>در عملیات {0} خطا رخ داده است</value>
+  </data>
+  <data name="ExitDate" xml:space="preserve">
+    <value>تاریخ خروج</value>
+  </data>
+  <data name="ExitDateMustBeGreaterThanEnteryDate" xml:space="preserve">
+    <value>تاريخ ورود را کوچکتر از تاريخ خروج انتخاب نماييد</value>
+  </data>
+  <data name="ExitTime" xml:space="preserve">
+    <value>زمان خروج</value>
+  </data>
+  <data name="FeatureNameEn" xml:space="preserve">
+    <value>نام مشخصه انگلیسی</value>
+  </data>
+  <data name="FeatureNameFa" xml:space="preserve">
+    <value>نام مشخصه فارسی</value>
+  </data>
+  <data name="FeatureShortNameEn" xml:space="preserve">
+    <value>نام کوتاه مشخصه انگلیسی</value>
+  </data>
+  <data name="FeatureShortNameFa" xml:space="preserve">
+    <value>نام کوتاه مشخصه فارسی</value>
+  </data>
+  <data name="FeatureValue" xml:space="preserve">
+    <value>مقدار مشخصه</value>
+  </data>
+  <data name="FeatureValueDelete" xml:space="preserve">
+    <value>حذف مقدار مشخصه</value>
+  </data>
+  <data name="FeatureValueEdit" xml:space="preserve">
+    <value>ویرایش مقدار مشخصه</value>
+  </data>
+  <data name="FeatureValueList" xml:space="preserve">
+    <value>لیست مقدار مشخصه</value>
+  </data>
+  <data name="FeatureValueSubmit" xml:space="preserve">
+    <value>ثبت مقدار مشخصه</value>
+  </data>
+  <data name="Female" xml:space="preserve">
+    <value>مرد</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>خانه</value>
+  </data>
+  <data name="HomePage" xml:space="preserve">
+    <value>صفحه اصلی</value>
+  </data>
+  <data name="IsRepeated" xml:space="preserve">
+    <value>{0} تکراری است</value>
+  </data>
+  <data name="LastName" xml:space="preserve">
+    <value>نام خانوادگی</value>
+  </data>
+  <data name="Latitude" xml:space="preserve">
+    <value>عرض جغرافیایی</value>
+  </data>
+  <data name="LeaveType" xml:space="preserve">
+    <value>نوع مرخصی</value>
+  </data>
+  <data name="List0" xml:space="preserve">
+    <value>{0} لیست</value>
+  </data>
+  <data name="Longitude" xml:space="preserve">
+    <value>طول جغرافیایی</value>
+  </data>
+  <data name="Male" xml:space="preserve">
+    <value>زن</value>
+  </data>
+  <data name="Measurebase" xml:space="preserve">
+    <value>واحد اندازه گیری</value>
+  </data>
+  <data name="MiscellaneousAreas" xml:space="preserve">
+    <value>محوطه های متفرقه</value>
+  </data>
+  <data name="Mobile" xml:space="preserve">
+    <value>موبایل</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>نام</value>
+  </data>
+  <data name="NameEn" xml:space="preserve">
+    <value>نام انگلیسی</value>
+  </data>
+  <data name="NameFa" xml:space="preserve">
+    <value>نام فارسی</value>
+  </data>
+  <data name="NationalCode" xml:space="preserve">
+    <value>کدملی</value>
+  </data>
+  <data name="NewPassword" xml:space="preserve">
+    <value>رمز عبور جدید</value>
+  </data>
+  <data name="NoDataWasRecorded" xml:space="preserve">
+    <value>هیچ داده ای ثبت نشده است.</value>
+  </data>
+  <data name="NotSet" xml:space="preserve">
+    <value>--مشخص نشده--</value>
+  </data>
+  <data name="NotValid0" xml:space="preserve">
+    <value>{0} معتبر نمی باشد</value>
+  </data>
+  <data name="NotValidInformation" xml:space="preserve">
+    <value>اطلاعات وارد شده معتبر نمی باشد</value>
+  </data>
+  <data name="OperationDoneSuccessfully" xml:space="preserve">
+    <value>عملیات با موفقیت انجام شد</value>
+  </data>
+  <data name="OrderNo" xml:space="preserve">
+    <value>شماره سفارش</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>رمز عبور</value>
+  </data>
+  <data name="Permission" xml:space="preserve">
+    <value>سطح دسترسی</value>
+  </data>
+  <data name="Personnel" xml:space="preserve">
+    <value>پرسنل</value>
+  </data>
+  <data name="PersonnelCode" xml:space="preserve">
+    <value>کد پرسنلی</value>
+  </data>
+  <data name="PleaseEnter0" xml:space="preserve">
+    <value>{0} را وارد نمایید</value>
+  </data>
+  <data name="PleaseSelect0" xml:space="preserve">
+    <value>{0} را انتخاب نمایید</value>
+  </data>
+  <data name="RememberMe" xml:space="preserve">
+    <value>مرا بخاطر بسپار</value>
+  </data>
+  <data name="ReturnToHomePage" xml:space="preserve">
+    <value>بازگشت به صفحه اول</value>
+  </data>
+  <data name="SeaPort" xml:space="preserve">
+    <value>بنادر</value>
+  </data>
+  <data name="SeaPortDelete" xml:space="preserve">
+    <value>حذف بنادر</value>
+  </data>
+  <data name="SeaPortEdit" xml:space="preserve">
+    <value>ویرایش بنادر</value>
+  </data>
+  <data name="SeaPortList" xml:space="preserve">
+    <value>لیست بنادر</value>
+  </data>
+  <data name="SeaPortSubmit" xml:space="preserve">
+    <value>ذخیره بنادر</value>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>انتخاب نمایید</value>
+  </data>
+  <data name="ShipAndTravel" xml:space="preserve">
+    <value>کشتی و سفر</value>
+  </data>
+  <data name="ShipList" xml:space="preserve">
+    <value>لیست کشتی ها</value>
+  </data>
+  <data name="ShortNameEn" xml:space="preserve">
+    <value>نام کوتاه انگلیسی</value>
+  </data>
+  <data name="ShortNameFa" xml:space="preserve">
+    <value>نام کوتاه فارسی</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>وضعیت</value>
+  </data>
+  <data name="SubmitInformation" xml:space="preserve">
+    <value>ثبت اطلاعات</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>عنوان</value>
+  </data>
+  <data name="Travel" xml:space="preserve">
+    <value>سفر</value>
+  </data>
+  <data name="TravelNo" xml:space="preserve">
+    <value>شماره سفر</value>
+  </data>
+  <data name="TruckType" xml:space="preserve">
+    <value>نوع کامیون</value>
+  </data>
+  <data name="Type" xml:space="preserve">
+    <value>نوع</value>
+  </data>
+  <data name="UnitsOfMeasurement" xml:space="preserve">
+    <value>واحد های اندازه گیری</value>
+  </data>
+  <data name="UserName" xml:space="preserve">
+    <value>نام کاربری</value>
+  </data>
+  <data name="ValueEn" xml:space="preserve">
+    <value>مقدار انگلیسی</value>
+  </data>
+  <data name="ValueFa" xml:space="preserve">
+    <value>مقدار فارسی</value>
+  </data>
+  <data name="ValueShortEn" xml:space="preserve">
+    <value>مقدار کوتاه انگلیسی</value>
+  </data>
+  <data name="ValueShortFa" xml:space="preserve">
+    <value>مقدار کوتاه فارسی</value>
+  </data>
+  <data name="Welcome" xml:space="preserve">
+    <value>خوش آمدید</value>
+  </data>
+  <data name="YouDontHaveAccessContactAdministrator" xml:space="preserve">
+    <value>شما دسترسی به این بخش ندارید، با مدیر خود تماس بگیرید.</value>
+  </data>
+  <data name="Tel1" xml:space="preserve">
+    <value>تلفن 1</value>
+  </data>
+  <data name="Tel2" xml:space="preserve">
+    <value>تلفن 2</value>
+  </data>
+  <data name="Email1" xml:space="preserve">
+    <value>ایمیل 1</value>
+  </data>
+  <data name="Email2" xml:space="preserve">
+    <value>ایمیل 2</value>
+  </data>
+  <data name="Companies" xml:space="preserve">
+    <value>شرکت ها</value>
+  </data>
+  <data name="Cargo" xml:space="preserve">
+    <value>کالا</value>
+  </data>
+  <data name="CargoDelete" xml:space="preserve">
+    <value>حذف کالا</value>
+  </data>
+  <data name="CargoFeatureValue" xml:space="preserve">
+    <value>مشخصات کالا</value>
+  </data>
+  <data name="CategoryName" xml:space="preserve">
+    <value>نام گروه</value>
+  </data>
+  <data name="Specifications" xml:space="preserve">
+    <value>مشخصات</value>
+  </data>
+  <data name="Value" xml:space="preserve">
+    <value>مقدار</value>
+  </data>
+  <data name="Account1" xml:space="preserve">
+    <value>شماره حساب اول</value>
+  </data>
+  <data name="Account2" xml:space="preserve">
+    <value>شماره حساب دوم</value>
+  </data>
+  <data name="CargoOwner" xml:space="preserve">
+    <value>صاحب کالا</value>
+  </data>
+  <data name="ListCargoOwner" xml:space="preserve">
+    <value>لیست صاحب کالا</value>
+  </data>
+  <data name="NationalId" xml:space="preserve">
+    <value>شناسه ملی</value>
+  </data>
+  <data name="personals" xml:space="preserve">
+    <value>اشخاص</value>
+  </data>
+  <data name="RegisterationNo" xml:space="preserve">
+    <value>شماره ثبت</value>
+  </data>
+  <data name="Repeatpassword" xml:space="preserve">
+    <value>تکرار رمز عبور</value>
+  </data>
+  <data name="AddressFa" xml:space="preserve">
+    <value>آدرس فارسی</value>
+  </data>
+  <data name="CompanyList" xml:space="preserve">
+    <value>لیست شرکت ها</value>
+  </data>
+  <data name="Company" xml:space="preserve">
+    <value>شرکت</value>
+  </data>
+  <data name="TransportCompany" xml:space="preserve">
+    <value>شرکت حمل</value>
+  </data>
+  <data name="WorkClearance" xml:space="preserve">
+    <value>ترخیص کار</value>
+  </data>
+  <data name="ContainerRepresentation" xml:space="preserve">
+    <value>نمایندگی کشتیرانی</value>
+  </data>
+  <data name="Fax" xml:space="preserve">
+    <value>فکس</value>
+  </data>
+  <data name="AddressEn" xml:space="preserve">
+    <value>آدرس انگلیسی</value>
+  </data>
+  <data name="Warehouse" xml:space="preserve">
+    <value>انبار</value>
+  </data>
+  <data name="Tel" xml:space="preserve">
+    <value>تلفن</value>
+  </data>
+  <data name="BeginningInventory" xml:space="preserve">
+    <value>موجودی اول دوره</value>
+  </data>
+  <data name="CargoEntry" xml:space="preserve">
+    <value>ورود کالا</value>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>تاریخ</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>توضیحات</value>
+  </data>
+  <data name="CargoExitEntry" xml:space="preserve">
+    <value>ورود و خروج کالا</value>
+  </data>
+  <data name="CargoItems" xml:space="preserve">
+    <value>اقلام کالا</value>
+  </data>
+  <data name="CargoName" xml:space="preserve">
+    <value>نام کالا</value>
+  </data>
+  <data name="SubmitCargoEntry" xml:space="preserve">
+    <value>ثبت ورود کالا</value>
+  </data>
+  <data name="0PreviouslyRegistered" xml:space="preserve">
+    <value> {0} قبلا ثبت شده</value>
+  </data>
+  <data name="CargoEdit" xml:space="preserve">
+    <value>ویرایش کالا</value>
+  </data>
+  <data name="Tell" xml:space="preserve">
+    <value>تماس</value>
+  </data>
+  <data name="List" xml:space="preserve">
+    <value>لیست</value>
+  </data>
+  <data name="Amount" xml:space="preserve">
+    <value>وزن خالص کالا</value>
+  </data>
+  <data name="BalanceBillNo" xml:space="preserve">
+    <value>شماره قبض باسکول</value>
+  </data>
+  <data name="ClearanceCompany" xml:space="preserve">
+    <value>ترخیص کار</value>
+  </data>
+  <data name="DocumentNo" xml:space="preserve">
+    <value>شماره سند</value>
+  </data>
+  <data name="EmptyTruckWeight" xml:space="preserve">
+    <value>وزن کامیون بدون  کالا</value>
+  </data>
+  <data name="IsCanceled" xml:space="preserve">
+    <value>باطل گردید</value>
+  </data>
+  <data name="IsShippingFareByOwner" xml:space="preserve">
+    <value>پرداخت کرایه برعهده صاحب کالا میباشد</value>
+  </data>
+  <data name="RegisterDate" xml:space="preserve">
+    <value>تاریخ ثبت اطلاعات</value>
+  </data>
+  <data name="ShippingCompany" xml:space="preserve">
+    <value>شرکت حمل</value>
+  </data>
+  <data name="ShippingFareAmount" xml:space="preserve">
+    <value>کرایه حمل</value>
+  </data>
+  <data name="SubmitTruckEntryDocument" xml:space="preserve">
+    <value>ثبت ورود کامیون</value>
+  </data>
+  <data name="TruckEntryDocument" xml:space="preserve">
+    <value>ورود کالا - کامیون</value>
+  </data>
+  <data name="TruckNo" xml:space="preserve">
+    <value>شماره کامیون</value>
+  </data>
+  <data name="TruckWeightWithCargo" xml:space="preserve">
+    <value>وزن کامیون با کالا</value>
+  </data>
+  <data name="WagonNo" xml:space="preserve">
+    <value>شماره واگن</value>
+  </data>
+  <data name="WaybillDate" xml:space="preserve">
+    <value>تاریخ بارنامه</value>
+  </data>
+  <data name="WaybillNo" xml:space="preserve">
+    <value>شماره بارنامه</value>
+  </data>
+  <data name="WaybillTime" xml:space="preserve">
+    <value>ساعت بارنامه</value>
+  </data>
+  <data name="WeightAtOrgin" xml:space="preserve">
+    <value>وزن در مبدا</value>
+  </data>
+  <data name="DocumentSubmitedSuccessfully0" xml:space="preserve">
+    <value>سند با موفقیت با شماره {0} ثبت شد</value>
+  </data>
+  <data name="TotalSum" xml:space="preserve">
+    <value>جمع کل</value>
+  </data>
+  <data name="WarehouseList" xml:space="preserve">
+    <value>لیست انبار</value>
+  </data>
+  <data name="CargoCode" xml:space="preserve">
+    <value>کد کالا</value>
+  </data>
+  <data name="Active" xml:space="preserve">
+    <value>فعال</value>
+  </data>
+  <data name="DeActive" xml:space="preserve">
+    <value>غیر فعال</value>
+  </data>
+  <data name="Supervisor" xml:space="preserve">
+    <value>مسئول</value>
+  </data>
+  <data name="CompanyName" xml:space="preserve">
+    <value>نام فارسی شرکت</value>
+  </data>
+  <data name="Key" xml:space="preserve">
+    <value>کلید</value>
+  </data>
+  <data name="Setting" xml:space="preserve">
+    <value>تنظیمات</value>
+  </data>
+  <data name="SystemTitle" xml:space="preserve">
+    <value>عنوان  فارسی سامانه</value>
+  </data>
+  <data name="SettingDelete" xml:space="preserve">
+    <value>حذف تنظیمات</value>
+  </data>
+  <data name="SettingEdit" xml:space="preserve">
+    <value>ویرایش تنظیمات</value>
+  </data>
+  <data name="SettingList" xml:space="preserve">
+    <value>لیست تنظیمات</value>
+  </data>
+  <data name="SettingManagement" xml:space="preserve">
+    <value>مدیریت تنظیمات</value>
+  </data>
+  <data name="SettingSubmit" xml:space="preserve">
+    <value>ثبت تنظیمات</value>
+  </data>
+  <data name="PersonelDelete" xml:space="preserve">
+    <value>خیر پرسنل</value>
+  </data>
+  <data name="PersonelList" xml:space="preserve">
+    <value>لیست پرسنل</value>
+  </data>
+  <data name="PersonelManagement" xml:space="preserve">
+    <value>مدیریت پرسنل</value>
+  </data>
+  <data name="PersonelSubmit" xml:space="preserve">
+    <value>ذخیره پرسنل</value>
+  </data>
+  <data name="PersonelEdit" xml:space="preserve">
+    <value>ویرایش پرسنل</value>
+  </data>
+  <data name="Rial" xml:space="preserve">
+    <value>ریال</value>
+  </data>
+  <data name="Submit" xml:space="preserve">
+    <value>ثبت</value>
+  </data>
+  <data name="PayingFareIsOnCargoOwner" xml:space="preserve">
+    <value>پرداخت کرایه به عهده صاحب کالا می باشد</value>
+  </data>
+  <data name="Mismatch0and1" xml:space="preserve">
+    <value>{0} با {1} یکسان نمی باشد</value>
+  </data>
+  <data name="Personel" xml:space="preserve">
+    <value>پرسنل</value>
+  </data>
+  <data name="DesignAndSupport" xml:space="preserve">
+    <value>طراحی و پشتیبانی</value>
+  </data>
+  <data name="DesignAndSupportEn" xml:space="preserve">
+    <value>Design &amp; Support</value>
+  </data>
+  <data name="ConfirmSubmit" xml:space="preserve">
+    <value>آیا از ثبت اطلاعات اطمینان دارید؟</value>
+  </data>
+  <data name="EnterTruckWeight" xml:space="preserve">
+    <value>وزن کامیون را وارد نمایید</value>
+  </data>
+  <data name="NetWeightMoreThan40000" xml:space="preserve">
+    <value>وزن خالص کالا بیشتر از 40000 شده است</value>
+  </data>
+  <data name="TruckNoWaybillNoIsRepeated0" xml:space="preserve">
+    <value>این شماره بارنامه برای این شماره کامیون برای کالای {0} قبلا ثبت شده است</value>
+  </data>
+  <data name="TruckWithCargoShouldBeGreaterThanTruckWithoutCargo" xml:space="preserve">
+    <value>وزن کامیون با کالا باید بزرگتر از وزن کامیون بدون کالا باشد</value>
+  </data>
+  <data name="FormatNotValid" xml:space="preserve">
+    <value>فرمت وارد شده اشتباه است</value>
+  </data>
+  <data name="MaxLength" xml:space="preserve">
+    <value>تعداد کاراکتر بیشتر از حد مجاز است</value>
+  </data>
+  <data name="MinLength" xml:space="preserve">
+    <value>تعداد کاراکتر کمترین حد مجاز است</value>
+  </data>
+  <data name="StringLength" xml:space="preserve">
+    <value>تعداد کاراکتر مجاز</value>
+  </data>
+  <data name="FirstSaveFeature" xml:space="preserve">
+    <value>ابتدا مشخصه های گروه کالا را ثبت کنید</value>
+  </data>
+  <data name="waybillDateShouldBeSmallerThanEntryDate" xml:space="preserve">
+    <value>تاریخ بارنامه باید کوچکتر از تاریخ ورود باشد</value>
+  </data>
+  <data name="DeleteShipTravel" xml:space="preserve">
+    <value>حذف کشتی و سفر</value>
+  </data>
+  <data name="DocumentWithSameWaybillNoExists0" xml:space="preserve">
+    <value>این شماره بارنامه برای سند {0} مربوط به صاحب کالا {1} به شماره کامیون {2} حاوی کالای {3} در تاریخ {4} قبلا ثبت شده است.</value>
+  </data>
+  <data name="EditShipTravel" xml:space="preserve">
+    <value>ویرایش کشتی و سفر</value>
+  </data>
+  <data name="ShipTravelList" xml:space="preserve">
+    <value>لیست کشتی و سفر</value>
+  </data>
+  <data name="ShipTravelManagement" xml:space="preserve">
+    <value>مدیریت کشتی و سفر</value>
+  </data>
+  <data name="SubmitShipTravel" xml:space="preserve">
+    <value>ثبت کشتی و سفر جدید</value>
+  </data>
+  <data name="CargoEntryReport" xml:space="preserve">
+    <value>موجودی اول دوره</value>
+  </data>
+  <data name="FromDate" xml:space="preserve">
+    <value>از تاریخ</value>
+  </data>
+  <data name="FromTime" xml:space="preserve">
+    <value>از ساعت</value>
+  </data>
+  <data name="Report" xml:space="preserve">
+    <value>گزارش</value>
+  </data>
+  <data name="TypeCancel" xml:space="preserve">
+    <value>ابطال شده</value>
+  </data>
+  <data name="UpToDate" xml:space="preserve">
+    <value>تا تاریخ</value>
+  </data>
+  <data name="UpToTime" xml:space="preserve">
+    <value>تا ساعت</value>
+  </data>
+  <data name="All" xml:space="preserve">
+    <value>همه</value>
+  </data>
+  <data name="Canceled" xml:space="preserve">
+    <value>ابطال شده</value>
+  </data>
+  <data name="NotCanceled" xml:space="preserve">
+    <value>ابطال نشده</value>
+  </data>
+  <data name="TrunkWeightWithCargoShouldBeGreaterThanEmptyTrunkWeight" xml:space="preserve">
+    <value>وزن کامیون با کالا باید بزرگتر از وزن کامیون بدون کالا باشد</value>
+  </data>
+  <data name="ChangingCargoInventoryFailed" xml:space="preserve">
+    <value>روند تغییر موجودی با خطا مواجه شد</value>
+  </data>
+  <data name="NotPossibleToEditCanceledDocument" xml:space="preserve">
+    <value>امکان ویرایش سند ابطال شده وجود ندارد</value>
+  </data>
+  <data name="CargoOwnerDelete" xml:space="preserve">
+    <value>حذف صاحب کالا</value>
+  </data>
+  <data name="NotValidPassword" xml:space="preserve">
+    <value>کلمه عبور باید شامل حرف و عدد باشد و بیشتر از 3 کاراکتر باشد</value>
+  </data>
+  <data name="TruckReport" xml:space="preserve">
+    <value>کامیون های ورودی</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>خیر</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>بلی</value>
+  </data>
+  <data name="AreYouSureOperation" xml:space="preserve">
+    <value>از انجام عملیات اطمینان دارید؟</value>
+  </data>
+  <data name="Document" xml:space="preserve">
+    <value>سند</value>
+  </data>
+  <data name="InventoryBecomesNegative" xml:space="preserve">
+    <value>موجودی کالا منفی می شود، از انجام عملیات اطمینان دارید؟</value>
+  </data>
+  <data name="CardexWarehouse" xml:space="preserve">
+    <value>کاردکس انبار</value>
+  </data>
+  <data name="DailyStatisticsTruckEntry" xml:space="preserve">
+    <value>آمار روزانه کامیون های ورودی</value>
+  </data>
+  <data name="DocumentExitCargo_Bulk" xml:space="preserve">
+    <value>اسناد خروج کالا از انبار - فله</value>
+  </data>
+  <data name="InventoryWarehouse" xml:space="preserve">
+    <value>موجودی انبار</value>
+  </data>
+  <data name="OrderCargo" xml:space="preserve">
+    <value>به تفکیک کالا</value>
+  </data>
+  <data name="OrderTruckNo" xml:space="preserve">
+    <value>به تفکیک شماره کامیون</value>
+  </data>
+  <data name="ShowType" xml:space="preserve">
+    <value>نحوه نمایش</value>
+  </data>
+  <data name="TransferOwnershipDocument" xml:space="preserve">
+    <value>اسناد انتقال مالکیت</value>
+  </data>
+  <data name="CountDocument" xml:space="preserve">
+    <value>تعداد سند</value>
+  </data>
+  <data name="DocumentType" xml:space="preserve">
+    <value>نوع سند</value>
+  </data>
+  <data name="ExitTo" xml:space="preserve">
+    <value>خروج به</value>
+  </data>
+  <data name="ExitType" xml:space="preserve">
+    <value>نحوه خروج</value>
+  </data>
+  <data name="FromCargoOwner" xml:space="preserve">
+    <value>از صاحب کالا</value>
+  </data>
+  <data name="Remaining" xml:space="preserve">
+    <value>مانده</value>
+  </data>
+  <data name="Ship" xml:space="preserve">
+    <value>کشتی</value>
+  </data>
+  <data name="ToCargoOwner" xml:space="preserve">
+    <value>به صاحب کالا</value>
+  </data>
+  <data name="ExcelExport" xml:space="preserve">
+    <value>خروجی اکسل</value>
+  </data>
+  <data name="Row" xml:space="preserve">
+    <value>ردیف</value>
+  </data>
+  <data name="MinLengthPassword" xml:space="preserve">
+    <value>حداقل 6 کاراکتر برای رمز عبور وارد نمایید</value>
+  </data>
+  <data name="ErrorDeleteRelation" xml:space="preserve">
+    <value>این رکورد در فرم دیگری استفاده شده است و به همین علت قادر به حذف نمیباشد</value>
+  </data>
+  <data name="Order" xml:space="preserve">
+    <value>ترتیب</value>
+  </data>
+  <data name="TransferOwnershipDocumentReport" xml:space="preserve">
+    <value>گزارش  اسناد انتقال مالکیت</value>
+  </data>
+  <data name="Report0" xml:space="preserve">
+    <value> گزارش {0}</value>
+  </data>
+  <data name="Container" xml:space="preserve">
+    <value>کانتینر</value>
+  </data>
+  <data name="OtherTerminals" xml:space="preserve">
+    <value>ترمینال های دیگر</value>
+  </data>
+  <data name="NoCarrier" xml:space="preserve">
+    <value>بدون حامل</value>
+  </data>
+  <data name="Truck" xml:space="preserve">
+    <value>کامیون</value>
+  </data>
+  <data name="Wagon" xml:space="preserve">
+    <value>واگن</value>
+  </data>
+  <data name="Booking" xml:space="preserve">
+    <value>بوکینگ</value>
+  </data>
+  <data name="BookingDate" xml:space="preserve">
+    <value>تاریخ بوکینگ</value>
+  </data>
+  <data name="BookingDateTime" xml:space="preserve">
+    <value>ساعت بوکینگ</value>
+  </data>
+  <data name="BookingManagement" xml:space="preserve">
+    <value>مدیریت بوکینگ</value>
+  </data>
+  <data name="BookingNo" xml:space="preserve">
+    <value>شماره بوکینگ</value>
+  </data>
+  <data name="NumberContainer" xml:space="preserve">
+    <value>تعداد کانتینر</value>
+  </data>
+  <data name="BookingDelete" xml:space="preserve">
+    <value>حذف بوگینگ</value>
+  </data>
+  <data name="BookingEdit" xml:space="preserve">
+    <value>ویرایش بوگینگ</value>
+  </data>
+  <data name="DocumentEditedSuccessfully0" xml:space="preserve">
+    <value>سند با موفقیت با شماره {0} ویرایش شد</value>
+  </data>
+  <data name="AgentCompany" xml:space="preserve">
+    <value>نمایندگی کشتیرانی</value>
+  </data>
+  <data name="ContainerManagement" xml:space="preserve">
+    <value>مدیریت کانتینر ها</value>
+  </data>
+  <data name="ContainerNo" xml:space="preserve">
+    <value>شماره کانتینر</value>
+  </data>
+  <data name="EmptyWeight" xml:space="preserve">
+    <value>وزن خالی</value>
+  </data>
+  <data name="InitialBodyCondition" xml:space="preserve">
+    <value>وضعیت بدنه</value>
+  </data>
+  <data name="LoadingInformation" xml:space="preserve">
+    <value>اطلاعات بارگیری</value>
+  </data>
+  <data name="MinorDamage" xml:space="preserve">
+    <value>خسارت جزئی</value>
+  </data>
+  <data name="NoDamage" xml:space="preserve">
+    <value>سالم</value>
+  </data>
+  <data name="Size" xml:space="preserve">
+    <value>اندازه</value>
+  </data>
+  <data name="TotalDamage" xml:space="preserve">
+    <value>خسارت کلی</value>
+  </data>
+  <data name="CargoWeight" xml:space="preserve">
+    <value>وزن کالا</value>
+  </data>
+  <data name="BeginningPeriodInventoryDocuments" xml:space="preserve">
+    <value>اسناد موجودی اول دوره</value>
+  </data>
+  <data name="Show" xml:space="preserve">
+    <value>نمایش</value>
+  </data>
+  <data name="Print" xml:space="preserve">
+    <value>چاپ</value>
+  </data>
+  <data name="ContainerDelete" xml:space="preserve">
+    <value>حذف کانتینر</value>
+  </data>
+  <data name="ContainerEdit" xml:space="preserve">
+    <value>ویرایش کانتینر</value>
+  </data>
+  <data name="CantDelete0" xml:space="preserve">
+    <value>اجازه {0}  ندارید</value>
+  </data>
+  <data name="BookingCantEdit" xml:space="preserve">
+    <value>اجازه ویرایش ندارید برای بوکینگ سند ثبت شده است</value>
+  </data>
+  <data name="CantEdit0" xml:space="preserve">
+    <value>اجازه ویرایش {0} ندارید</value>
+  </data>
+  <data name="CreateDocumentBooking" xml:space="preserve">
+    <value>با این شماره بوکینگ سند در سیستم موجود است</value>
+  </data>
+  <data name="CustomsSealNo" xml:space="preserve">
+    <value>شماره پلمپ گمرک</value>
+  </data>
+  <data name="InspectionSealNo" xml:space="preserve">
+    <value>شماره پلمپ بازرسی</value>
+  </data>
+  <data name="ShipSealNo" xml:space="preserve">
+    <value>شماره پلمپ کشتی رانی</value>
+  </data>
+  <data name="DontLoadingInformation" xml:space="preserve">
+    <value>بدلیل  وجود سند ابطال نشده  اجازه ثبت اطلاعات بارگیری را ندارید</value>
+  </data>
+  <data name="DateNotValid" xml:space="preserve">
+    <value>تاریخ معتبر نیست،از تاریخ باید کوچک تر باشه از تا تاریخ.</value>
+  </data>
+  <data name="CargoEntryDocuments" xml:space="preserve">
+    <value>اسناد ورود کالا</value>
+  </data>
+  <data name="Revoke" xml:space="preserve">
+    <value>ابطال</value>
+  </data>
+  <data name="SureToProceed" xml:space="preserve">
+    <value>آیا برای ادامه کار اطمینان دارید؟</value>
+  </data>
+  <data name="WeightDifferenceAtSourceAndDestination" xml:space="preserve">
+    <value>اختلاف وزن مبدا و مقصد بیش از 1000 شده است</value>
+  </data>
+  <data name="ToDateMustBeBiggerThanFromDate" xml:space="preserve">
+    <value>از تاریخ را کوچکتر از تا تاریخ وارد نمایید</value>
+  </data>
+  <data name="DocumentCargoEntryReport" xml:space="preserve">
+    <value>اسناد موجودی اول دوره</value>
+  </data>
+  <data name="Documents0" xml:space="preserve">
+    <value>اسناد {0}</value>
+  </data>
+  <data name="WarehouseCargeExit" xml:space="preserve">
+    <value>خروج کالا از انبار</value>
+  </data>
+  <data name="ExcelPdf" xml:space="preserve">
+    <value>خروجی pdf</value>
+  </data>
+  <data name="CarrierType" xml:space="preserve">
+    <value>نوع حامل</value>
+  </data>
+  <data name="AmountEn" xml:space="preserve">
+    <value>Amount</value>
+  </data>
+  <data name="CargoArrivalCumulativeEn" xml:space="preserve">
+    <value>Cargo arrival cumulative</value>
+  </data>
+  <data name="CargoEn" xml:space="preserve">
+    <value>Cargo</value>
+  </data>
+  <data name="CargoTypeEn" xml:space="preserve">
+    <value>Cargo Type</value>
+  </data>
+  <data name="DocQTYEn" xml:space="preserve">
+    <value>Count of document</value>
+  </data>
+  <data name="DocTypeEn" xml:space="preserve">
+    <value>Doc type</value>
+  </data>
+  <data name="DocumentNoEn" xml:space="preserve">
+    <value>Document No</value>
+  </data>
+  <data name="FromDateEn" xml:space="preserve">
+    <value>From date</value>
+  </data>
+  <data name="FromTimeEn" xml:space="preserve">
+    <value>From time</value>
+  </data>
+  <data name="MeasurebaseEn" xml:space="preserve">
+    <value>Measurebase</value>
+  </data>
+  <data name="MiladyDateEn" xml:space="preserve">
+    <value>Miladi date</value>
+  </data>
+  <data name="PleaseSelectEn0" xml:space="preserve">
+    <value>Please select {0}</value>
+  </data>
+  <data name="RepainAmountEn" xml:space="preserve">
+    <value>Repain amount</value>
+  </data>
+  <data name="ReportEn" xml:space="preserve">
+    <value>Report</value>
+  </data>
+  <data name="ReportEn0" xml:space="preserve">
+    <value>Report {0} </value>
+  </data>
+  <data name="SelectEn" xml:space="preserve">
+    <value>Please select</value>
+  </data>
+  <data name="ShamsiDateEn" xml:space="preserve">
+    <value>Shamsi date</value>
+  </data>
+  <data name="ToDateMustBeBiggerThanFromDateEn" xml:space="preserve">
+    <value>To date must be bigger than from date</value>
+  </data>
+  <data name="ToTimeEn" xml:space="preserve">
+    <value>ToTime</value>
+  </data>
+  <data name="WarehouseCardexEn" xml:space="preserve">
+    <value>Warehouse cardex</value>
+  </data>
+  <data name="WarehouseEn" xml:space="preserve">
+    <value>Warehouse</value>
+  </data>
+  <data name="CardexWarehouseReport" xml:space="preserve">
+    <value>گزارش کاردکس انبار</value>
+  </data>
+  <data name="CargoOwnerManagment" xml:space="preserve">
+    <value>مدیریت صاحب کالا</value>
+  </data>
+  <data name="CitySeaPortManagement" xml:space="preserve">
+    <value>مدیریت شهروبنادر</value>
+  </data>
+  <data name="CompanyManagement" xml:space="preserve">
+    <value>مدیریت کمپانی ها</value>
+  </data>
+  <data name="ListEn" xml:space="preserve">
+    <value>List</value>
+  </data>
+  <data name="ToDateEn" xml:space="preserve">
+    <value>ToDate</value>
+  </data>
+  <data name="TruckEntryManagement" xml:space="preserve">
+    <value>مدیریت ورود کالا - کامیون</value>
+  </data>
+  <data name="WarehouseManagement" xml:space="preserve">
+    <value>مدیریت انبار</value>
+  </data>
+  <data name="BLNoEn" xml:space="preserve">
+    <value>BLNo</value>
+  </data>
+  <data name="BookingEn" xml:space="preserve">
+    <value>Booking</value>
+  </data>
+  <data name="CargoArrivalTruckEn" xml:space="preserve">
+    <value>Cargo arrival truck</value>
+  </data>
+  <data name="CargoDepartureContainerEn" xml:space="preserve">
+    <value>Cargo departure container</value>
+  </data>
+  <data name="CargoDepartureEn" xml:space="preserve">
+    <value>Cargo departure</value>
+  </data>
+  <data name="CityEn" xml:space="preserve">
+    <value>City</value>
+  </data>
+  <data name="ContainerNoEn" xml:space="preserve">
+    <value>Container No</value>
+  </data>
+  <data name="DepartureTypeEn" xml:space="preserve">
+    <value>Departure type</value>
+  </data>
+  <data name="ExitToEn" xml:space="preserve">
+    <value>Exit to</value>
+  </data>
+  <data name="MisalinTerminalsEn" xml:space="preserve">
+    <value>Misalin terminals</value>
+  </data>
+  <data name="MiscellaneousAreasEn" xml:space="preserve">
+    <value>Miscellaneous areas</value>
+  </data>
+  <data name="ShipEn" xml:space="preserve">
+    <value>Ship</value>
+  </data>
+  <data name="ShippingCompanyEn" xml:space="preserve">
+    <value>Shipping company</value>
+  </data>
+  <data name="TruckNoEn" xml:space="preserve">
+    <value>Truck No</value>
+  </data>
+  <data name="InventroyCargoEn" xml:space="preserve">
+    <value>Inventroy cargo</value>
+  </data>
+  <data name="Other" xml:space="preserve">
+    <value>سایر</value>
+  </data>
+  <data name="County" xml:space="preserve">
+    <value>شهرستان</value>
+  </data>
+  <data name="ContainerCargoExit" xml:space="preserve">
+    <value>خروج کالا از انبار - کانتینر</value>
+  </data>
+  <data name="ExcelExportEn" xml:space="preserve">
+    <value>Export excel</value>
+  </data>
+  <data name="CountDocumentNumber" xml:space="preserve">
+    <value>تعداد سند</value>
+  </data>
+  <data name="DisplayBasedOnTruckOrCargo" xml:space="preserve">
+    <value>نحوه نمایش</value>
+  </data>
+  <data name="SelectTruck" xml:space="preserve">
+    <value>به تفکیک شماره ماشین</value>
+  </data>
+  <data name="SelectCargo" xml:space="preserve">
+    <value>به تفکیک کالا</value>
+  </data>
+  <data name="DocumentDate" xml:space="preserve">
+    <value>تاریخ سند</value>
+  </data>
+  <data name="CargoInventoryNotEnough0" xml:space="preserve">
+    <value>موجودی کالای {0} کافی نمی باشد</value>
+  </data>
+  <data name="DateMustBeLessThanCurrentDate0" xml:space="preserve">
+    <value>{0} باید کوچکتر از تاریخ جاری باشد</value>
+  </data>
+  <data name="CargoExitDocuments" xml:space="preserve">
+    <value>اسناد خروج کالا از انبار</value>
+  </data>
+  <data name="CountyEn" xml:space="preserve">
+    <value>County</value>
+  </data>
+  <data name="OtherEn" xml:space="preserve">
+    <value>Other</value>
+  </data>
+  <data name="OtherTerminalsEn" xml:space="preserve">
+    <value>Other terminals</value>
+  </data>
+  <data name="Action" xml:space="preserve">
+    <value>عملیات</value>
+  </data>
+  <data name="Field" xml:space="preserve">
+    <value>فیلد ویرایش شده</value>
+  </data>
+  <data name="NewValue" xml:space="preserve">
+    <value>مقدار تغییر یافته</value>
+  </data>
+  <data name="OldValue" xml:space="preserve">
+    <value>مقدار قبلی</value>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>کاربر</value>
+  </data>
+  <data name="UserActivity" xml:space="preserve">
+    <value>عملیات کاربران</value>
+  </data>
+  <data name="UserEditingActivity" xml:space="preserve">
+    <value>عملیات ویرایش اسناد</value>
+  </data>
+  <data name="Area" xml:space="preserve">
+    <value>محوطه</value>
+  </data>
+  <data name="Port" xml:space="preserve">
+    <value>بندر</value>
+  </data>
+  <data name="CountryCitySeaPort" xml:space="preserve">
+    <value>کشور - شهر و بنادر</value>
+  </data>
+  <data name="CountryCitySeaPortManagement" xml:space="preserve">
+    <value>مدیریت کشور - شهر و بنادر</value>
+  </data>
+  <data name="AccessLevelsManagement" xml:space="preserve">
+    <value>لیست سطوح دسترسی</value>
+  </data>
+  <data name="PermissionsList" xml:space="preserve">
+    <value>لیست مجوزهای دسترسی</value>
+  </data>
+  <data name="DoneSuccessfullContainerDocument0" xml:space="preserve">
+    <value>سند با موفقیت  با شماره {0} ثبت شد.</value>
+  </data>
+  <data name="DeleteContainerCargoExit" xml:space="preserve">
+    <value>حذف سند خروج کالا از انبار - کانتینر</value>
+  </data>
+  <data name="EditContainerCargoExit" xml:space="preserve">
+    <value>ویرایش اسناد خروج کالا از انبار - کانتینر</value>
+  </data>
+  <data name="SubmitTransfer" xml:space="preserve">
+    <value>ثبت انتقال مالکیت</value>
+  </data>
+  <data name="Transfer" xml:space="preserve">
+    <value>انتقال مالکیت</value>
+  </data>
+  <data name="TransferDocuments" xml:space="preserve">
+    <value>اسناد انتقال مالکیت</value>
+  </data>
+  <data name="TransferOwnershipDocumentToOwner" xml:space="preserve">
+    <value>انتقال سند به مالک</value>
+  </data>
+  <data name="TransferOwnershipDocumentFromOwner" xml:space="preserve">
+    <value>انتقال سند از مالک</value>
+  </data>
+  <data name="OverallRemaingFromPast" xml:space="preserve">
+    <value>موجودی از قبل</value>
+  </data>
+  <data name="ContainerCargoExitAmountError0" xml:space="preserve">
+    <value>موجودی کالای {0} در انبار {1} کافی نمیباشد</value>
+  </data>
+  <data name="TransferToCargoOwner" xml:space="preserve">
+    <value>انتقال به صاحب کالا</value>
+  </data>
+  <data name="TransferingFromSameCargoownerNotPossible" xml:space="preserve">
+    <value>انتقال از یک صاحب کالا به همان صاحب کالا امکانپذیر نیست</value>
+  </data>
+  <data name="CargoInventoryNotEnough" xml:space="preserve">
+    <value>موجودی در انبار کافی نیست</value>
+  </data>
+  <data name="NotFind0" xml:space="preserve">
+    <value>اطلاعات {0} یافت نشد</value>
+  </data>
+  <data name="Logo" xml:space="preserve">
+    <value>لوگو</value>
+  </data>
+  <data name="DateGhamari" xml:space="preserve">
+    <value>تاریخ میلادی</value>
+  </data>
+  <data name="DocumentCargoEntry" xml:space="preserve">
+    <value>سند ورود کالا</value>
+  </data>
+  <data name="TotalRemainEn" xml:space="preserve">
+    <value>Total Remain</value>
+  </data>
+  <data name="EntryEn" xml:space="preserve">
+    <value>Entry</value>
+  </data>
+  <data name="PasswordEn" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="RememberMeEn" xml:space="preserve">
+    <value>RememberMe</value>
+  </data>
+  <data name="UserNameEn" xml:space="preserve">
+    <value>UserName</value>
+  </data>
+  <data name="WelcomeEn" xml:space="preserve">
+    <value>Welcome</value>
+  </data>
+  <data name="cancelEn" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="ExportExcelEn" xml:space="preserve">
+    <value>Export Excel</value>
+  </data>
+  <data name="SearchEn" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="AmoutCannotNegative" xml:space="preserve">
+    <value>مقدار نمیتواند منفی شود</value>
+  </data>
+  <data name="EmptyWeightShouldBeGreaterThanEmptyTruckWeight" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TruckWeightWithCargoShouldBeGreaterThanEmptyTruckWeight" xml:space="preserve">
+    <value>وزن کامیون با کالا باید بزرگتر از وزن خالی کامیون باشد</value>
+  </data>
+  <data name="AccessLevelSubmit" xml:space="preserve">
+    <value>ثبت سطح دسترسی</value>
+  </data>
+  <data name="ChangePasswordEn" xml:space="preserve">
+    <value>Change Password</value>
+  </data>
+  <data name="LogoutEn" xml:space="preserve">
+    <value>Logout</value>
+  </data>
+  <data name="Logout" xml:space="preserve">
+    <value>خروج</value>
+  </data>
+  <data name="DashboardEn" xml:space="preserve">
+    <value>Dashboard</value>
+  </data>
+  <data name="Create" xml:space="preserve">
+    <value>ثبت</value>
+  </data>
+  <data name="OperationCantPerform0" xml:space="preserve">
+    <value>اجازه {0} ندارید برای بوکینگ سند ثبت شده است</value>
+  </data>
+  <data name="CargoOwnerCreate" xml:space="preserve">
+    <value>ثبت صاحب کالا</value>
+  </data>
+  <data name="CargoOwnerEdit" xml:space="preserve">
+    <value>ویرایش صاحب کالا</value>
+  </data>
+  <data name="Users" xml:space="preserve">
+    <value>پرسنل</value>
+  </data>
+  <data name="InventoryWarehouseEn" xml:space="preserve">
+    <value>Inventory warehouse</value>
+  </data>
+  <data name="CargoEntryEn" xml:space="preserve">
+    <value>Cargo Entry</value>
+  </data>
+  <data name="EditLogManagement" xml:space="preserve">
+    <value>مدیرریت عملیات ویرایش اسناد</value>
+  </data>
+  <data name="LogManagement" xml:space="preserve">
+    <value>مدیرییت لاگ ها</value>
+  </data>
+  <data name="CargoEntryManagement" xml:space="preserve">
+    <value>مدیریت ورود کالا - موجودی اول دوره</value>
+  </data>
+  <data name="CargoExitManagement" xml:space="preserve">
+    <value>مدیریت خروج کالا از انبار</value>
+  </data>
+  <data name="ContainerCargoExitManagement" xml:space="preserve">
+    <value>مدیریت  اسناد خروج کالا از انبار - کانتینر</value>
+  </data>
+  <data name="TransferManagement" xml:space="preserve">
+    <value>مدیریت انتقال مالکیت</value>
+  </data>
+  <data name="CargoTypeManagement" xml:space="preserve">
+    <value>مدیریت گروه کالا</value>
+  </data>
+  <data name="ExportPdf" xml:space="preserve">
+    <value>ExportPdf</value>
+  </data>
+  <data name="CargoEntryReportEn" xml:space="preserve">
+    <value>Cargo Entry Report</value>
+  </data>
+  <data name="CargoWarehouseValue" xml:space="preserve">
+    <value>{0} - {1} - {2}</value>
+  </data>
+  <data name="CargoEntryDocumentsEn" xml:space="preserve">
+    <value>cargo entry documents</value>
+  </data>
+  <data name="TruckEntryDocumentEn" xml:space="preserve">
+    <value>truck entry documents</value>
+  </data>
+  <data name="TransferOwnershipDocumentEn" xml:space="preserve">
+    <value>transfer ownership documents</value>
+  </data>
+  <data name="CargoExitDocumentsEn" xml:space="preserve">
+    <value>cargo exit documents</value>
+  </data>
+  <data name="ContainerCargoExitEn" xml:space="preserve">
+    <value>container exit documents</value>
+  </data>
+  <data name="TransferOwnershipDocumentToOwnerEn" xml:space="preserve">
+    <value>transfer to other documents</value>
+  </data>
+  <data name="TransferOwnershipDocumentFromOwnerEn" xml:space="preserve">
+    <value>take ownership documents</value>
+  </data>
+  <data name="CargoWarehouseValueLabel" xml:space="preserve">
+    <value>کالا - انبار - مقدار</value>
+  </data>
+  <data name="EnteranceTime" xml:space="preserve">
+    <value>زمان ورود</value>
+  </data>
+  <data name="EntranceDate" xml:space="preserve">
+    <value>تاریخ ورود</value>
+  </data>
+  <data name="CargoInWarehouseInventoryNotEnough0" xml:space="preserve">
+    <value>موجودی کالای {0} در انبار {1} کافی نمی باشد</value>
+  </data>
+  <data name="CompanyNameEn" xml:space="preserve">
+    <value>نام  انگلیسی شرکت</value>
+  </data>
+  <data name="SystemTitleEn" xml:space="preserve">
+    <value>عنوان انگلیسی سامانه</value>
+  </data>
+  <data name="ShippingFareAmountIsShippingFareByOwner" xml:space="preserve">
+    <value>امکان درج کرایه و تایید پرداخت کرایه در محل، به طور همزمان وجود ندارد</value>
+  </data>
+  <data name="BLDateMiladiEn" xml:space="preserve">
+    <value>BL Miladi Date</value>
+  </data>
+  <data name="TruckTypeEn" xml:space="preserve">
+    <value>TruckType</value>
+  </data>
+  <data name="BLDateShamsiEn" xml:space="preserve">
+    <value>BL Shamsi Date</value>
+  </data>
+  <data name="GroupCargo" xml:space="preserve">
+    <value>موجودی گروه کالا</value>
+  </data>
+  <data name="RemainAmountEn" xml:space="preserve">
+    <value>RemainAmount</value>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>جزئیات</value>
+  </data>
+  <data name="IsSelected" xml:space="preserve">
+    <value>نحوه تفکیک</value>
+  </data>
+  <data name="MiladyDate" xml:space="preserve">
+    <value>تاریخ میلادی</value>
+  </data>
+  <data name="ShamsiDate" xml:space="preserve">
+    <value>تاریخ شمسی</value>
+  </data>
+  <data name="CargoOwnerEn" xml:space="preserve">
+    <value>Cargo Owner</value>
+  </data>
+  <data name="EmptyTruckWeightEn" xml:space="preserve">
+    <value>Empty Truck Weight</value>
+  </data>
+  <data name="EnterDateMiladiEn" xml:space="preserve">
+    <value>Enter Miladi Date</value>
+  </data>
+  <data name="EnterDateShamsiEn" xml:space="preserve">
+    <value>Enter Shamsi Date</value>
+  </data>
+  <data name="ShippingFareAmountEn" xml:space="preserve">
+    <value>Fare Amount</value>
+  </data>
+  <data name="TruckWeightWithCargoEn" xml:space="preserve">
+    <value>Truck Weight With Cargo</value>
+  </data>
+  <data name="WagonNoEn" xml:space="preserve">
+    <value>Wagon No</value>
+  </data>
+  <data name="TravelNoEn" xml:space="preserve">
+    <value>Travel No</value>
+  </data>
+  <data name="WeightEn" xml:space="preserve">
+    <value>Weight</value>
+  </data>
+  <data name="ContainerSizeEn" xml:space="preserve">
+    <value>Container Size</value>
+  </data>
+  <data name="ContainerTypeEn" xml:space="preserve">
+    <value>Container Type</value>
+  </data>
+  <data name="AgentCompanyEn" xml:space="preserve">
+    <value>Agent Company</value>
+  </data>
+  <data name="ContainerLineEn" xml:space="preserve">
+    <value>Container Line</value>
+  </data>
+  <data name="ContainerWeightEn" xml:space="preserve">
+    <value>Container Weight</value>
+  </data>
+  <data name="ProductIsSubmited0" xml:space="preserve">
+    <value>کالا با کد {0} با موفقیت ثبت شد</value>
+  </data>
+  <data name="CargoIsEdited0" xml:space="preserve">
+    <value>کالا با کد {0} با موفقیت ویرایش شد</value>
+  </data>
+  <data name="FromWaybillDate" xml:space="preserve">
+    <value>از تاریخ بارنامه</value>
+  </data>
+  <data name="FromWaybillTime" xml:space="preserve">
+    <value>از ساعت بارنامه</value>
+  </data>
+  <data name="ToWaybillDate" xml:space="preserve">
+    <value>تا تاریخ بارنامه</value>
+  </data>
+  <data name="ToWaybillTime" xml:space="preserve">
+    <value>تا ساعت بارنامه</value>
+  </data>
+  <data name="DailyCargoArrivalTruckEn" xml:space="preserve">
+    <value>Daily Cargo Arrival Truck</value>
+  </data>
+  <data name="WeightEmptyDestination" xml:space="preserve">
+    <value>وزن خالی در مقصد</value>
+  </data>
+  <data name="WeightEmptyOrigin" xml:space="preserve">
+    <value>وزن خالی در مبداء</value>
+  </data>
+  <data name="WeightFullDestination" xml:space="preserve">
+    <value>وزن پر در مقصد</value>
+  </data>
+  <data name="WeightFullOrigin" xml:space="preserve">
+    <value>وزن پر در مبداء</value>
+  </data>
+  <data name="NetWeightDestination" xml:space="preserve">
+    <value>وزن خالص در مقصد</value>
+  </data>
+  <data name="NetWeightOrigin" xml:space="preserve">
+    <value>وزن خالص در مبداء</value>
+  </data>
+  <data name="NameCounter" xml:space="preserve">
+    <value>نام بارشمار</value>
+  </data>
+  <data name="WaybillSerial" xml:space="preserve">
+    <value>سریال بارنامه</value>
+  </data>
+  <data name="DisputeOriginDestination" xml:space="preserve">
+    <value>اختلاف وزن مبداء و مقصد</value>
+  </data>
+  <data name="EnterWeightOrigin" xml:space="preserve">
+    <value>لطفا وزن پر و خالی مبداء را وارد کنید</value>
+  </data>
+  <data name="EnterWeightDestination" xml:space="preserve">
+    <value>لطفا وزن پر و خالی مقصد را وارد نمائید</value>
+  </data>
+  <data name="FullOriginMustBeEmptyOrigin" xml:space="preserve">
+    <value>وزن پر در مبداء باید بزرگتر از وزن خالی در مبداء باشد</value>
+  </data>
+  <data name="MaximumInventory" xml:space="preserve">
+    <value>حداکثر موجودی</value>
+  </data>
+  <data name="MinimumInventory" xml:space="preserve">
+    <value>حداقل موجودی</value>
+  </data>
+  <data name="MinMustBeSmallerMax" xml:space="preserve">
+    <value>حداقل موجودی باید از حداکثر موجودی کمتر باشد</value>
+  </data>
+  <data name="UserCreating" xml:space="preserve">
+    <value>کاربر ثبت کننده</value>
+  </data>
+  <data name="LoadDrop" xml:space="preserve">
+    <value>افت بار</value>
+  </data>
+  <data name="LoadDropReport" xml:space="preserve">
+    <value>گزارش افت بار</value>
+  </data>
+  <data name="ShippingFareAmountRial" xml:space="preserve">
+    <value>کرایه حمل(ریال)</value>
+  </data>
+  <data name="TruckEntryPayment" xml:space="preserve">
+    <value>پرداخت به کامیون ورودی</value>
+  </data>
+  <data name="TruckEntryPaymentReport" xml:space="preserve">
+    <value>گزارش پرداخت به کامیون ورودی</value>
+  </data>
+  <data name="Debt" xml:space="preserve">
+    <value>بدهکاری</value>
+  </data>
+  <data name="PeymentMoney" xml:space="preserve">
+    <value>مبلغ پرداختی</value>
+  </data>
+  <data name="ListTruckEntryDebtReport" xml:space="preserve">
+    <value>لیست بدهکاری به کامیون های ورودی</value>
+  </data>
+  <data name="TruckEntryDebtReport" xml:space="preserve">
+    <value>بدهکاری به کامیون ورودی</value>
+  </data>
+  <data name="DuplicateRecords" xml:space="preserve">
+    <value>ثبت رکورد های تکراری</value>
+  </data>
+  <data name="ExcelFile" xml:space="preserve">
+    <value>فایل اکسل</value>
+  </data>
+  <data name="ImportExcel" xml:space="preserve">
+    <value>ورود اکسل</value>
+  </data>
+</root>
