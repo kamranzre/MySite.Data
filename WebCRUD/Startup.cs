@@ -6,6 +6,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using MySite.Data.DataBaseContext;
 using MySite.Data.Infrastructure;
+using MySite.Data.Repositories.PersonsRepository;
 using MySite.Entity.Mapper;
 using Newtonsoft.Json.Serialization;
 using System;
@@ -31,7 +32,7 @@ namespace WebCRUD
             services.AddKendo();
             services.AddControllersWithViews();
             services.AddTransient<UnitOfWork<MySiteDbContext>>();
-
+            //services.AddScoped<IPersonRepository, PersonRepository>();
             services.AddAutoMapper();
             services.AddLocalization(options => options.ResourcesPath = "Resources");
             services.AddControllers().AddNewtonsoftJson(options =>

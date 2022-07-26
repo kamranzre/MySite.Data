@@ -25,7 +25,7 @@ namespace MySite.Data.Repositories.PersonsRepository
 
         public async Task<IQueryable<PersonCreateOrEditModel>> GetPrunedData()
         {
-            var person = TableNoTracking.AsQueryable().ToModel<PersonCreateOrEditModel>().AsQueryable();
+            var person = TableNoTracking.ToModel<PersonCreateOrEditModel>().AsQueryable();
             return person;
         }
 
