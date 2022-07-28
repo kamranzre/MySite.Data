@@ -8,6 +8,7 @@ form.submit(function (event) {
         dataType: "JSON",
         data: new FormData(this),
         processData: false,
+
         contentType: false,
 
     }).done(function (data) {

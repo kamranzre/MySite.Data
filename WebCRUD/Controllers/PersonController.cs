@@ -30,6 +30,7 @@ namespace WebCRUD.Controllers
             DataSourceResult result = model.ToDataSourceResult(request);
 
             return Json(result);
+
         }
         public async Task<IActionResult> Create()
         {

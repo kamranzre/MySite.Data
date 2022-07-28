@@ -34,6 +34,7 @@ namespace WebCRUD
             services.AddTransient<UnitOfWork<MySiteDbContext>>();
             //services.AddScoped<IPersonRepository, PersonRepository>();
             services.AddAutoMapper();
+
             services.AddLocalization(options => options.ResourcesPath = "Resources");
             services.AddControllers().AddNewtonsoftJson(options =>
             {
