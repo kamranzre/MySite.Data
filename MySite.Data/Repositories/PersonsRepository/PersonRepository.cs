@@ -20,13 +20,14 @@ namespace MySite.Data.Repositories.PersonsRepository
         public PersonRepository(DbContext dbContext) : base(dbContext)
         {
             this.db = (this.db ?? (MySiteDbContext)db);
-
         }
+
 
         public async Task<IQueryable<PersonCreateOrEditModel>> GetPrunedData()
         {
             var person = TableNoTracking.ToModel<PersonCreateOrEditModel>().AsQueryable();
             return person;
+
         }
 
         public bool AddAsynce(PersonCreateOrEditModel model)
